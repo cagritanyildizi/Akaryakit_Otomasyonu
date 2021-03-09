@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akaryakit_Otomasyonu", "Akaryakit_Otomasyonu\Akaryakit_Otomasyonu.csproj", "{7050A88E-73C0-40A0-885E-DA6CA5E8CF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7050A88E-73C0-40A0-885E-DA6CA5E8CF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7050A88E-73C0-40A0-885E-DA6CA5E8CF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7050A88E-73C0-40A0-885E-DA6CA5E8CF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7050A88E-73C0-40A0-885E-DA6CA5E8CF18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFE0947A-CD04-4BEB-98DF-6E6F8D2679BD}
+	EndGlobalSection
+EndGlobal
