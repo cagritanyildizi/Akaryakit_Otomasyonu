@@ -53,6 +53,7 @@ namespace Akaryakit_Otomasyonu
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.button2 = new System.Windows.Forms.Button();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
@@ -70,6 +71,7 @@ namespace Akaryakit_Otomasyonu
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
@@ -84,8 +86,6 @@ namespace Akaryakit_Otomasyonu
             this.label24 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -345,6 +345,17 @@ namespace Akaryakit_Otomasyonu
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(491, 107);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(101, 125);
+            this.button2.TabIndex = 16;
+            this.button2.Text = "FİYAT BİLGİLERİNİ GÜNCELLE";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(376, 212);
@@ -508,6 +519,17 @@ namespace Akaryakit_Otomasyonu
             this.tabPage3.Text = "SATIŞ YAP";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(369, 93);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 128);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "SATIŞ YAP";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // numericUpDown5
             // 
             this.numericUpDown5.Location = new System.Drawing.Point(229, 201);
@@ -547,10 +569,11 @@ namespace Akaryakit_Otomasyonu
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(228, 53);
+            this.comboBox1.Location = new System.Drawing.Point(229, 53);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(216, 21);
             this.comboBox1.TabIndex = 8;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label29
             // 
@@ -624,26 +647,6 @@ namespace Akaryakit_Otomasyonu
             this.label22.Size = new System.Drawing.Size(82, 13);
             this.label22.TabIndex = 0;
             this.label22.Text = "YAKIT TÜRÜ";
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(491, 107);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(101, 125);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "FİYAT BİLGİLERİNİ GÜNCELLE";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(369, 93);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 128);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "SATIŞ YAP";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
