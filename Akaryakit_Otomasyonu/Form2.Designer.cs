@@ -522,7 +522,7 @@ namespace Akaryakit_Otomasyonu
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(369, 93);
+            this.button3.Location = new System.Drawing.Point(437, 93);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 128);
             this.button3.TabIndex = 14;
@@ -532,35 +532,35 @@ namespace Akaryakit_Otomasyonu
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(229, 201);
+            this.numericUpDown5.Location = new System.Drawing.Point(278, 195);
             this.numericUpDown5.Name = "numericUpDown5";
             this.numericUpDown5.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown5.TabIndex = 13;
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(229, 173);
+            this.numericUpDown4.Location = new System.Drawing.Point(278, 169);
             this.numericUpDown4.Name = "numericUpDown4";
             this.numericUpDown4.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown4.TabIndex = 12;
             // 
             // numericUpDown3
             // 
-            this.numericUpDown3.Location = new System.Drawing.Point(229, 147);
+            this.numericUpDown3.Location = new System.Drawing.Point(278, 143);
             this.numericUpDown3.Name = "numericUpDown3";
             this.numericUpDown3.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown3.TabIndex = 11;
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(229, 119);
+            this.numericUpDown2.Location = new System.Drawing.Point(278, 117);
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown2.TabIndex = 10;
             // 
             // numericUpDown1
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(229, 93);
+            this.numericUpDown1.Location = new System.Drawing.Point(278, 91);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 9;
@@ -569,16 +569,16 @@ namespace Akaryakit_Otomasyonu
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(229, 53);
+            this.comboBox1.Location = new System.Drawing.Point(278, 53);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(216, 21);
+            this.comboBox1.Size = new System.Drawing.Size(234, 21);
             this.comboBox1.TabIndex = 8;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(259, 242);
+            this.label29.Location = new System.Drawing.Point(314, 242);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(48, 13);
             this.label29.TabIndex = 7;
@@ -588,7 +588,7 @@ namespace Akaryakit_Otomasyonu
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label28.Location = new System.Drawing.Point(88, 242);
+            this.label28.Location = new System.Drawing.Point(112, 242);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(131, 13);
             this.label28.TabIndex = 6;
@@ -597,7 +597,7 @@ namespace Akaryakit_Otomasyonu
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(88, 201);
+            this.label27.Location = new System.Drawing.Point(112, 202);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(31, 13);
             this.label27.TabIndex = 5;
@@ -606,7 +606,7 @@ namespace Akaryakit_Otomasyonu
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(88, 173);
+            this.label26.Location = new System.Drawing.Point(112, 176);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(82, 13);
             this.label26.TabIndex = 4;
@@ -615,7 +615,7 @@ namespace Akaryakit_Otomasyonu
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(88, 147);
+            this.label25.Location = new System.Drawing.Point(112, 151);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(43, 13);
             this.label25.TabIndex = 3;
@@ -624,7 +624,7 @@ namespace Akaryakit_Otomasyonu
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(88, 119);
+            this.label24.Location = new System.Drawing.Point(112, 124);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(79, 13);
             this.label24.TabIndex = 2;
@@ -633,7 +633,7 @@ namespace Akaryakit_Otomasyonu
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(88, 93);
+            this.label23.Location = new System.Drawing.Point(112, 100);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(79, 13);
             this.label23.TabIndex = 1;
@@ -642,7 +642,7 @@ namespace Akaryakit_Otomasyonu
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(88, 61);
+            this.label22.Location = new System.Drawing.Point(112, 61);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(82, 13);
             this.label22.TabIndex = 0;
